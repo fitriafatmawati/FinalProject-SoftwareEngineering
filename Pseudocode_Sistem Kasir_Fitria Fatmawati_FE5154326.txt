@@ -1,0 +1,21 @@
+Pseudocode sistem kasir (memasukan item dan auto calculate total harga) :
+
+Start
+
+Read AND Write "item["name"]["count"]" with string
+Read AND Write "item["count"]["price"]" with number
+
+STORE "total" WITH CALCULATE "total" PLUS "item["count"]["price"]"
+
+WHILE  "buy_item is TRUE"
+DO back to step 2
+
+Read AND Write "selected_payment"
+ 
+IF "change < 0"  
+	SHOW change
+	go to payment	
+ELSE 
+	Read AND Write "print payment token"
+	
+END 
